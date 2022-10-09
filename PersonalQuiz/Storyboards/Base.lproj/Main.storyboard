@@ -330,10 +330,14 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="finalDescriptionLable" destination="Mtg-Yi-Tt2" id="3GY-9f-PFU"/>
+                        <outlet property="finalTitleLable" destination="RZb-ww-1bI" id="jCb-9Z-CFA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZH6-hE-q9r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2336" y="1"/>
+            <point key="canvasLocation" x="2529" y="1"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SLl-ww-K4s">
